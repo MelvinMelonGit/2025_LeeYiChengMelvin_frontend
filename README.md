@@ -12,6 +12,15 @@ This project contains a Vite-based React frontend application and served by Ngin
 
 ---
 
+## Clone Git Repository Into Local Machine
+Clone this git repository into your local machine, into your preferred directory:
+
+```bash
+git clone https://github.com/MelvinMelonGit/2025_LeeYiChengMelvin_frontend.git
+```
+
+---
+
 ## Build Docker Image
 
 To build the Docker image, run the following command in the root directory of the frontend project (where the Dockerfile is):
