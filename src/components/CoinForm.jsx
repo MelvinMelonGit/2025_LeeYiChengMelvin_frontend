@@ -26,7 +26,7 @@ export default function CoinForm() {
 
         const postData = async () => {
         try {
-            const response = await fetch(import.meta.env.VITE_API_URL, {
+            const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/count`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
