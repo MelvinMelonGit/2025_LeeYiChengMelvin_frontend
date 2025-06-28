@@ -10,9 +10,9 @@ export default function SelectList({data, onClickOption}) {
     })
 
     return (
-        <div className="border border-dashed">
-            <label htmlFor="denominations">Choose a denomination:</label>
-            <select name="denominations" id="denominations" onChange={onClickOption}>
+        <div className="mb-8">
+            <label className="me-10" htmlFor="denominations">Choose a denomination:</label>
+            <select className="border-b-3 cursor-pointer" name="denominations" id="denominations" onChange={onClickOption}>
                 <option id="default" name="default" value="">Please select:</option>
                 {selectList}
             </select>
